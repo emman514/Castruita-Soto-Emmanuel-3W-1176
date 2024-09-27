@@ -92,19 +92,19 @@ c= int(input("Ingresa un número: "))#se le solicitara y se leera el tanto que e
 
 if a > b > c:# if es como la condicion a cumplir aqui es si a es mayor b y mayor que se parara la siguiente linea 
 
-    print("a es el mayor y c es el menor")#esta sentencia  se ejecuta 
+print("a es el mayor y c es el menor")#esta sentencia  se ejecuta 
     
 elif b > c > a:#elif es por si no se se cumple la 1 condicion es como un o sino  si esta se cumple se ejecutara la siguiente linea
 
-     print("b es el mayor y a el menor")#esta sentencia se ejecutara
+print("b es el mayor y a el menor")#esta sentencia se ejecutara
      
 elif c > a > b:#elif es por si no se se cumple la 2 condicion es como un o sino  si esta se cumple se ejecutara la siguiente linea
 
-     print("c es el mayor y b el menor")#esta sentencia  se ejecuta 
+print("c es el mayor y b el menor")#esta sentencia  se ejecuta 
      
 elif c == a == b:#este elif solo se ejecutara si los numeros son iguale y mandara el siguiente mensaje de la proxima linea
 
-     print("los valores son iguales ingrese otros")#esta sentencia se se ejecuta 
+ print("los valores son iguales ingrese otros")#esta sentencia se se ejecuta 
      
 print("")# servira como un espacio cuando el codigo se ejecuta
 
@@ -139,11 +139,11 @@ b= int(input("Ingresa un número: "))#se introduce el numero
 
 if a > b  :# if es como la condicion a cumplir aqui es si a es mayor b y mayor que se parara la siguiente linea 
 
-    print(" b es el menor")#esta sentencia  se ejecuta
+ print(" b es el menor")#esta sentencia  se ejecuta
     
 elif  b > a:#elif es por si no se se cumple la 2 condicion es como un o sino  si esta se cumple se ejecutara la siguiente linea
 
-     print(" a el menor")#esta sentencia  se ejecuta 
+  print(" a el menor")#esta sentencia  se ejecuta 
      
 elif a == b:
      print("los valores son iguales ")#esta sentencia se se ejecuta 
@@ -228,11 +228,11 @@ a= int(input("Ingresa un número: "))#se introduce el numero
 
 if a > 12 :# if es como la condicion a cumplir aqui es si a es mayor b y mayor que se parara la siguiente linea 
 
-    print(" no es el dato solicitado ")#esta sentencia  se ejecuta 
+ print(" no es el dato solicitado ")#esta sentencia  se ejecuta 
     
 elif  a<=12 :#elif es por si no se se cumple la 1 condicion es como un o sino  si esta se cumple se ejecutara la siguiente linea
 
-     print(" el numero ingresado si es natural entre el 1 y el 12")#esta sentencia  se ejecuta 
+ print(" el numero ingresado si es natural entre el 1 y el 12")#esta sentencia  se ejecuta 
      
 print("")# servira como un espacio cuando el codigo se ejecuta
 
@@ -261,11 +261,11 @@ numero = int(input("Ingresa un número natural: "))  # Solicita al usuario un n�
 
 if numero % 2 == 0:  # Si el residuo de la división entre 2 es 0, es par
 
-    print("es par.")  # Imprime que el número es par
+ print("es par.")  # Imprime que el número es par
     
 else:#sino se cumple condicion una se una esta y se implime lo siguiente
 
-    print("es impar.")  # Imprime que el número es impar
+ print("es impar.")  # Imprime que el número es impar
     
 print("")# servira como un espacio cuando el codigo se ejecuta
 
@@ -295,11 +295,11 @@ numero = int(input("Ingresa un número entero: "))  # Solicita un número al usu
 
 if numero > 40 and numero % 7 == 0:  # Comprueba las dos condiciones
 
-    print(f"{numero} es divisible por 7 y es mayor a 40.")  # Imprime si cumple
+  print(f"{numero} es divisible por 7 y es mayor a 40.")  # Imprime si cumple
     
 else:# sino se cumple uno se usa esta
 
-    print(f"{numero} no cumple con las condiciones.")  # Imprime si no cumple
+ print(f"{numero} no cumple con las condiciones.")  # Imprime si no cumple
     
 print("")# servira como un espacio cuando el codigo se ejecuta
 
@@ -320,11 +320,11 @@ print("Emmanuel Castruita Soto 3W ") #se implira en pantalla el mensaje escrito
 
 print("")# servira como un espacio cuando el codigo se ejecuta
 
-# Ingresar un número entero
+#ingresa un numero entero
 
 numero = int(input("Ingresa un número entero para calcular su factorial: "))  # Solicita un número al usuario.
 
-# Inicializar el factorial en 1.
+# inicio el factorial en 1.
 
 factorial = 1  # El factorial se inicia en 1.
 
@@ -332,18 +332,18 @@ factorial = 1  # El factorial se inicia en 1.
 
 if numero < 0:.
 
-    print("No se puede calcular el factorial de un número negativo.")  # Mensaje para números negativos.
+print("No se puede calcular el factorial de un número negativo.")# Mensaje para números negativos.
 else:#sino se cumple variacion 1 seguira esta
 
-    # Calcular el factorial usando un bucle.
+#Calcular el factorial usando un bucle.
     
-    for i in range(1, numero + 1):  # Itera desde 1 hasta el número ingresado (inclusive)-
+ for i in range(1, numero + 1):Itera desde 1 hasta el número ingresado (inclusive)-
     
-        factorial *= i  # Multiplica el factorial por i-
+  factorial *= i  # Multiplica el factorial por i-
 
-    # Mostrar el resultado-
+ # Mostrar el resultado-
     
-    print("El factorial de", numero, "es", factorial)  # Imprime el resultado final-
+ print("El factorial de", numero, "es", factorial)  # Imprime el resultado final-
 
 CODIGO
 
