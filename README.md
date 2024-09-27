@@ -322,28 +322,28 @@ print("")# servira como un espacio cuando el codigo se ejecuta
 
 # Ingresar un número entero
 
-numero = int(input("Ingresa un número entero para calcular su factorial: "))  # Solicita un número al usuario
+numero = int(input("Ingresa un número entero para calcular su factorial: "))  # Solicita un número al usuario.
 
-# Inicializar el factorial en 1
+# Inicializar el factorial en 1.
 
-factorial = 1  # El factorial se inicia en 1
+factorial = 1  # El factorial se inicia en 1.
 
-# Verificar si el número es negativo
+# Verificar si el número es negativo.
 
-if numero < 0:
+if numero < 0:.
 
-    print("No se puede calcular el factorial de un número negativo.")  # Mensaje para números negativos
+    print("No se puede calcular el factorial de un número negativo.")  # Mensaje para números negativos.
 else:#sino se cumple variacion 1 seguira esta
 
-    # Calcular el factorial usando un bucle
+    # Calcular el factorial usando un bucle.
     
-    for i in range(1, numero + 1):  # Itera desde 1 hasta el número ingresado (inclusive)
+    for i in range(1, numero + 1):  # Itera desde 1 hasta el número ingresado (inclusive)-
     
-        factorial *= i  # Multiplica el factorial por i
+        factorial *= i  # Multiplica el factorial por i-
 
-    # Mostrar el resultado
+    # Mostrar el resultado-
     
-    print("El factorial de", numero, "es", factorial)  # Imprime el resultado final
+    print("El factorial de", numero, "es", factorial)  # Imprime el resultado final-
 
 CODIGO
 
